@@ -1,14 +1,10 @@
 {
-  "collection": "https://example.org/iiif/collection.json",
-  "devCollection": "https://example.org/iiif/collection-small-sample.json",
-  "featured": [
-    "https://example.org/manifest-1.json",
-    "https://example.org/manifest-2.json"
-  ],
-  "metadata": ["Date", "Subject"],
-  "label": { "none": ["Collection Title"] },
+  "collection": "https://digbmc.github.io/pta-punc-server/index.json",
+  "devCollection": "https://digbmc.github.io/pta-punc-server/index.json",
+  "metadata": ["Date"],
+  "label": { "none": ["Punch-Drunk Love"] },
   "summary": {
-    "none": ["Brief description of the site and its contents."]
+    "none": ["A test site using Canopy and Tropiiify"]
   },
   "theme": {
     "defaultTheme": "light",
