@@ -1,10 +1,13 @@
 {
   "collection": "https://digbmc.github.io/pta-punc-server/index.json",
   "devCollection": "https://digbmc.github.io/pta-punc-server/index.json",
-  "metadata": ["Date"],
-  "label": { "none": ["Punch-Drunk Love"] },
+  "featured": [
+    "https://digbmc.github.io/pta-punc-server/punc-00039/manifest.json"
+  ],
+  "metadata": ["Date", "Subject"],
+  "label": { "none": ["Collection Title"] },
   "summary": {
-    "none": ["A test site using Canopy and Tropiiify"]
+    "none": ["Brief description of the site and its contents."]
   },
   "theme": {
     "defaultTheme": "light",
