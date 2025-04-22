@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://canopy-iiif.github.io/canopy-iiif
+Host: https://digbmc.github.io/pta-canopy-test
 
 # Sitemaps
-Sitemap: https://canopy-iiif.github.io/canopy-iiif/sitemap.xml
+Sitemap: https://digbmc.github.io/pta-canopy-test/sitemap.xml
