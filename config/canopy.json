@@ -1,0 +1,16 @@
+{
+  "collection": "https://digbmc.github.io/pta-punc-server/index.json",
+  "devCollection": "https://digbmc.github.io/pta-punc-server/index.json",
+  "metadata": ["Date"],
+  "label": { "none": ["Punch-Drunk Love"] },
+  "summary": {
+    "none": ["A test site using Canopy and Tropiiify"]
+  },
+  "theme": {
+    "defaultTheme": "light",
+    "accentColor": "red",
+    "grayColor": "mauve",
+    "radius": "small",
+    "scaling": "100%"
+  }
+}
