@@ -1,19 +1,58 @@
 {
   "collection": "https://digbmc.github.io/pta-punc-server/index.json",
-  "devCollection": "https://digbmc.github.io/pta-punc-server/index.json",
+  "metadata": ["Title"],
   "featured": [
     "https://digbmc.github.io/pta-punc-server/punc-00039/manifest.json"
   ],
-  "metadata": ["Date", "Subject"],
-  "label": { "none": ["Collection Title"] },
-  "summary": {
-    "none": ["Brief description of the site and its contents."]
+  "locales": [
+    {
+      "config": "locales/en.json",
+      "label": "English",
+      "lang": "en"
+    }
+  ],
+  "search": {
+    "enabled": true,
+    "flexSearch": {
+      "charset": "latin:extra",
+      "optimize": true,
+      "tokenize": "strict",
+      "bidirectional": false,
+      "document": {
+        "index": [
+          {
+            "field": "label",
+            "tokenize": "full",
+            "resolution": 9,
+            "depth": 3,
+            "bidirectional": true
+          },
+          {
+            "field": "metadata",
+            "resolution": 2
+          },
+          {
+            "field": "summary",
+            "resolution": 1
+          }
+        ]
+      }
+    },
+    "index": {
+      "metadata": {
+        "enabled": true,
+        "all": false
+      },
+      "summary": {
+        "enabled": false
+      }
+    }
   },
   "theme": {
     "defaultTheme": "light",
-    "accentColor": "red",
-    "grayColor": "mauve",
-    "radius": "small",
-    "scaling": "100%"
+    "toggleEnabled": false
+  },
+  "components": {
+    "viewer": "clover"
   }
 }
