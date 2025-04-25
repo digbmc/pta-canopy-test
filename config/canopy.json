@@ -1,6 +1,6 @@
 {
   "collection": "https://digbmc.github.io/pta-punc-server/index.json",
-  "metadata": ["Title"],
+  "metadata": ["Title", "Film", "Angle", "Distance", "Location", "Movement", "Lighting", "Composition", "Duration"],
   "featured": [
     "https://digbmc.github.io/pta-punc-server/punc-00039/manifest.json"
   ],
@@ -50,7 +50,10 @@
   },
   "theme": {
     "defaultTheme": "light",
-    "toggleEnabled": false
+    "toggleEnabled": false,
+    "accentColor": "amber",
+    "grayColor": "gray",
+    "radius": "full"
   },
   "components": {
     "viewer": "clover"
