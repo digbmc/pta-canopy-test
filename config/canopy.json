@@ -1,6 +1,6 @@
 {
   "collection": "https://digbmc.github.io/pta-punc-server/index.json",
-  "metadata": ["Title", "Film", "Angle", "Distance", "Location", "Movement", "Lighting", "Composition", "Duration"],
+  "metadata": ["Film", "Angle", "Distance", "Location", "Movement", "Lighting", "Composition", "Duration"],
   "featured": [
     "https://digbmc.github.io/pta-punc-server/punc-00039/manifest.json"
   ],
