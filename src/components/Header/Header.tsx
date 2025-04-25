@@ -46,7 +46,7 @@ const Header = () => {
             weight="medium"
             style={{ fontFamily: "var(--canopy-display-font)" }}
           >
-            <Label label={collections[0].label} as="span" />
+            <Label label="Paul Thomas Annotated: In the Margins" as="span" />
           </Heading>
         </Link>
         <ResponsiveActions>
